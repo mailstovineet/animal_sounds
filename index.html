@@ -1,0 +1,43 @@
+
+<html>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat&family=Dosis:wght@300&family=Kdam+Thmor+Pro&family=Quintessential&family=Roboto+Condensed&family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
+      <title>Animal Sound Identification</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+        <center>
+          <h1>Animal Sound Identification</h1>
+          <br>
+          <img id="ear" src="download.jpg">
+          <h3>_______________________________________________________________________________</h3>
+          <h3>This app can recognise</h3>
+          <hr>
+          <p>-A dog barking</p>
+          <hr>
+          <p>-A cat meowing</p>
+          <hr>
+          <p>-Background Noise</p>
+          <h3>-----------------------------------------------------------------------------------------</h3>
+          <h2>Play one of the sounds mentioned above after clicking the start button</h2>
+          <button class="btn btn-success" onclick="recognize();">Start</button>
+          <div id="animals">
+            <img id="dog_or_cat">
+          </div>
+          <hr>
+          <h4 id="audio">I Can Hear--  </h4>
+          <h4 id="accuracy">Accuracy--  </h4>
+          <hr>
+          <div class="footer">Made By- Shivam</div>
+        </center>
+  <script src="main.js"></script>
+    </body>
+  </html>

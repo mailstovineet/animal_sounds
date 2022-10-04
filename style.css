@@ -1,0 +1,25 @@
+#alien_1,#alien_2,#alien_3,#alien_4{
+    width:200px;
+}
+.footer{
+    bottom:0;
+    position:fixed;
+    text-align:center;
+    width:100%;
+    font-size:20px;
+    background-color:rgb(245, 144, 144);
+    color:white;
+}
+body{
+    background-color:rgb(208, 211, 209);
+}
+#ear{
+    height:100px;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#dog_or_cat{
+    width:150px;
+    height:150px;
+}
